@@ -19,8 +19,11 @@
         editor = vim
 [apply]
         whitespace = nowarn
+[mergetool "sourcetree"]
+	cmd = /usr/local/bin/ksdiff --merge --output \"$MERGED\" --base \"$BASE\" -- \"$LOCAL\" --snapshot \"$REMOTE\" --snapshot
+	trustExitCode = true
 [mergetool]
-        keepBackup = false
+	keepBackup = true
 [difftool]
         prompt = false
 [help]
