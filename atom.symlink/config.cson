@@ -21,11 +21,13 @@
     ]
   editor:
     fontFamily: "Menlo"
+    fontSize: 12
     invisibles: {}
     showIndentGuide: true
-    softWrapAtPreferredLineLength: true
-  "go-plus":
-    goPath: "/Users/holman/Code/go"
+    showInvisibles: true
+    tabLength: 4
+    tabType: "soft"
+    softWrapAtPreferredLineLength: false
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
