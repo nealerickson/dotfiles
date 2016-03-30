@@ -7,6 +7,7 @@
 
 # Check for Oh My Zsh
 if ! [ -d "${HOME}/.oh-my-zsh" ]
+then
   echo "  Installing Oh My Zsh for you."
 
   sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
