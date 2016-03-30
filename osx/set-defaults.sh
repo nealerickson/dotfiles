@@ -401,7 +401,7 @@ defaults write com.apple.messageshelper.MessageController SOInputLineSettings -d
 
 for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
 	"Dock" "Finder" "Google Chrome" "Google Chrome Canary" "Mail" "Messages" \
-	"Photos" "Safari" "SystemUIServer" "Terminal" \
+	"Photos" "Safari" "SystemUIServer" \
 	"iCal"; do
 	killall "${app}" &> /dev/null
 done
