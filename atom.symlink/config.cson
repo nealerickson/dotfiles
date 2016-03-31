@@ -25,9 +25,9 @@
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
+    softWrapAtPreferredLineLength: false
     tabLength: 4
     tabType: "soft"
-    softWrapAtPreferredLineLength: false
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
