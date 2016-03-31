@@ -6,6 +6,7 @@
 
 # Check for fzf
 if ! [ -d "${HOME}/.fzf" ]
+then
   echo "  Installing fzf for you."
 
   git clone --depth 1 https://github.com/junegunn/fzf.git $HOME/.fzf
