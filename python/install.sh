@@ -2,5 +2,14 @@
 
 if test ! $(which pip)
 then
-  pip install virtualenvwrapper
+  echo "  Installing pip for you."
+
+  pip install --upgrade pip
+fi
+
+if [[ ! $(pip list |grep virtualenvwrapper) ]]
+then
+	echo "  Installing virtualenvwrapper for you."
+	
+	pip install virtualenvwrapper
 fi
