@@ -8,3 +8,20 @@ then
   alias ll="gls -l --color"
   alias la='gls -A --color'
 fi
+
+alias zshconfig='subl ~/.zshrc'
+alias ohmyzsh='subl ~/.oh-my-zsh'
+
+alias sshconfig='subl ~/.ssh/config'
+
+alias vim='nocorrect vim '
+alias ghci='nocorrect ghci '
+alias ghc='nocorrect ghc '
+alias erlc='nocorrect erlc '
+alias erl='nocorrect erl '
+
+alias pcat='pygmetize'
+
+alias cbp='pbpaste|less'
+
+alias cpwd="pwd | tr -d '\n' | pbcopy"
