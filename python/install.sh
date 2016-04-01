@@ -13,3 +13,17 @@ then
 	
 	pip install virtualenvwrapper
 fi
+
+if [[ ! $(pip list |grep fake-factory) ]]
+then
+	echo "  Installing fake-factory for you."
+	
+	pip install fake-factory
+fi
+
+if [[ ! $(pip list |grep requests) ]]
+then
+	echo "  Installing requests for you."
+	
+	pip install requests
+fi
