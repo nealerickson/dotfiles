@@ -196,10 +196,13 @@ sudo chflags nohidden /Volumes
 defaults write com.apple.dock mouse-over-hilite-stack -bool true
 
 # Set the icon size of Dock items to 36 pixels
-defaults write com.apple.dock tilesize -int 36
+defaults write com.apple.dock tilesize -int 16
 
 # Change minimize/maximize window effect
 defaults write com.apple.dock mineffect -string "scale"
+
+# Set orientation to the left
+defaults write com.apple.dock orientation -string "left"
 
 # Minimize windows into their application’s icon
 defaults write com.apple.dock minimize-to-application -bool true
