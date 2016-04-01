@@ -70,5 +70,3 @@ source $ZSH/oh-my-zsh.sh
 #PATH=$PATH:$ANDROID_HOME:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-#eval "$(fasd --init posix-alias zsh-hook)"
