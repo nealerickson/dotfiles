@@ -9,10 +9,10 @@ then
   alias la='gls -A --color'
 fi
 
-alias zshconfig='subl ~/.zshrc'
-alias ohmyzsh='subl ~/.oh-my-zsh'
+alias zshconfig='st ~/.zshrc'
+alias ohmyzsh='st ~/.oh-my-zsh'
 
-alias sshconfig='subl ~/.ssh/config'
+alias sshconfig='st ~/.ssh/config'
 
 alias vim='nocorrect vim '
 alias ghci='nocorrect ghci '
