@@ -28,6 +28,12 @@
     softWrapAtPreferredLineLength: false
     tabLength: 4
     tabType: "soft"
+  minimap:
+    plugins:
+      codeglance: true
+      codeglanceDecorationsZIndex: 0
+      "git-diff": true
+      "git-diffDecorationsZIndex": 0
   "release-notes":
     viewedVersion: "0.89.0"
   "spell-check":
