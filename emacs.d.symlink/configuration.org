@@ -1241,3 +1241,11 @@ Remap when working in terminal Emacs.
 #+BEGIN_SRC emacs-lisp
   (define-key input-decode-map "\e[1;2A" [S-up])
 #+END_SRC
+
+** server-start
+
+start the emacsserver that listens to emacsclient
+
+#+BEGIN_SRC emacs-lisp
+  (server-start)
+#+END_SRC
