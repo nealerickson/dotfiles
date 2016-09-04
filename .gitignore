@@ -9,7 +9,12 @@ atom.symlink/packages
 atom.symlink/storage
 atom.symlink/themes
 
-git/gitconfig.local.symlink
+emacs.d/*
+!emacs.d/Cask
+!emacs.d/configuration.org
+!emacs.d/init.el
+!emacs.d/resources
+!emacs.d/snippets
 
 homestead.symlink/*
 !homestead.symlink/install.sh

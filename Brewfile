@@ -3,6 +3,7 @@ cask_args appdir: '/Applications'
 tap 'homebrew/bundle'
 
 brew 'ack'
+brew 'cask'
 brew 'coreutils'
 brew 'elixir'
 brew 'erlang'
