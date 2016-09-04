@@ -1,3 +1,5 @@
+git/gitconfig.local.symlink
+
 atom.symlink/.apm
 atom.symlink/.node-gyp
 atom.symlink/.storage
@@ -8,3 +10,9 @@ atom.symlink/storage
 atom.symlink/themes
 
 git/gitconfig.local.symlink
+
+homestead.symlink/*
+!homestead.symlink/install.sh
+!homestead.symlink/after.sh
+!homestead.symlink/aliases
+!homestead.symlink/Homestead.yaml.example
