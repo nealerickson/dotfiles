@@ -25,3 +25,6 @@ alias pcat='pygmetize'
 alias cbp='pbpaste|less'
 
 alias cpwd="pwd | tr -d '\n' | pbcopy"
+
+alias emacs='open -a /Applications/Emacs.app $1'
+alias ec='/Applications/Emacs.app/Contents/MacOS/bin/emacsclient'
