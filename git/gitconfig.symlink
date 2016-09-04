@@ -15,7 +15,7 @@
         branch = auto
         ui = true
 [core]
-        excludesfile = /Users/neal/.gitignore
+        excludesfile = ~/.gitignore
         editor = vim
 [apply]
         whitespace = nowarn
@@ -40,3 +40,5 @@
 [user]
 	name = Neal Erickson
 	email = neal@heedworks.com
+[commit]
+	template = ~/.gitmessage
