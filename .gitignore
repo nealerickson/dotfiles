@@ -9,12 +9,12 @@ atom.symlink/packages
 atom.symlink/storage
 atom.symlink/themes
 
-emacs.d/*
-!emacs.d/Cask
-!emacs.d/configuration.org
-!emacs.d/init.el
-!emacs.d/resources
-!emacs.d/snippets
+emacs.d.symlink/*
+!emacs.d.symlink/Cask
+!emacs.d.symlink/configuration.org
+!emacs.d.symlink/init.el
+!emacs.d.symlink/resources
+!emacs.d.symlink/snippets
 
 homestead.symlink/*
 !homestead.symlink/install.sh
