@@ -21,3 +21,6 @@ homestead.symlink/*
 !homestead.symlink/after.sh
 !homestead.symlink/aliases
 !homestead.symlink/Homestead.yaml.example
+
+
+bin/vpnctl
