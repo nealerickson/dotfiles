@@ -31,7 +31,7 @@ Use [[https://github.com/hrs/sensible-defaults.el][sensible-defaults.el]] for so
 I use =cask= and =pallet= for managing packages.
 
 #+BEGIN_SRC emacs-lisp
-  (require 'cask "~/.cask/cask.el")
+  (require 'cask "/usr/local/share/emacs/site-lisp/cask/cask.el")
   (cask-initialize)
   (require 'pallet)
 #+END_SRC
