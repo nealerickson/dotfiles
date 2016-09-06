@@ -15,6 +15,7 @@ emacs.d.symlink/*
 !emacs.d.symlink/init.el
 !emacs.d.symlink/resources
 !emacs.d.symlink/snippets
+!emacs.d.symlink/install.sh
 
 homestead.symlink/*
 !homestead.symlink/install.sh
