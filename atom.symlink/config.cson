@@ -1,4 +1,9 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "94cb0113-9707-4a11-885c-de3747d7182d"
+    typescript:
+      beautify_on_save: true
   core:
     disabledPackages: [
       "background-tips"
@@ -15,19 +20,21 @@
       "tmp"
       "vendor"
     ]
+    telemetryConsent: "limited"
     themes: [
       "unity-ui"
       "glacier-syntax"
     ]
   editor:
     fontFamily: "Menlo"
-    fontSize: 12
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
     softWrapAtPreferredLineLength: false
     tabLength: 4
     tabType: "soft"
+  "markdown-writer":
+    fileExtension: ".md"
   minimap:
     plugins:
       codeglance: true
@@ -45,3 +52,9 @@
     ]
   welcome:
     showOnStartup: false
+".json.source":
+  editor:
+    tabLength: 2
+".source.yaml":
+  editor:
+    tabLength: 2

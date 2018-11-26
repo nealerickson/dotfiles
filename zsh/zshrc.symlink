@@ -57,7 +57,7 @@ COMPLETION_WAITING_DOTS='true'
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(git github brew ruby rbenv fasd sublime history virtualenvwrapper pyenv composer)
+plugins=(git github brew ruby rbenv fasd sublime history composer)
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -70,3 +70,23 @@ source $ZSH/oh-my-zsh.sh
 #PATH=$PATH:$ANDROID_HOME:$ANDROID_TOOLS:$ANDROID_PLATFORM_TOOLS
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# export PATH="$(brew --prefix homebrew/php/php70)/bin:$PATH"
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /usr/local/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
+
+#eval "$(pyenv init - zsh)"
+#eval "$(pyenv virtualenv-init -)"
+
+eval "$(rbenv init -)"
+
+export CFLAGS=-I/usr/local/opt/openssl/include 
+export LDFLAGS=-L/usr/local/opt/openssl/lib
+export PATH=/usr/local/opt/openssl/bin:$PATH
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home
