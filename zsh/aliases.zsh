@@ -1,8 +1,10 @@
 alias reload!='. ~/.zshrc'
 
+alias cls='clear' # Good 'ol Clear Screen command
+
 # Schedule Engine
 
-alias se="$HOME/Code/Ignite/ScheduleEngine/projects/se-system/cli/cli.js"
+alias se="$HOME/Code/Ignite/Services/se-system/cli/cli.js"
 alias sedo="se docker"
 alias sedos="se docker start"
 alias seg="se docker gulp"
