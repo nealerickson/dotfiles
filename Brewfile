@@ -26,7 +26,7 @@ brew 'spark'
 brew 'unrar'
 brew 'wget'
 brew 'yarn'
-brew 'youtube-dl'
+brew 'yt-dlp'
 
 # cask '1password'
 # cask 'adium'
