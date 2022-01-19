@@ -4,6 +4,7 @@ tap 'homebrew/bundle'
 
 brew 'ack'
 brew 'coreutils'
+brew 'deno'
 brew 'go'
 brew 'grc'
 brew 'fasd'
