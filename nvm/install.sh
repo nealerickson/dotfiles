@@ -11,6 +11,8 @@ then
 
   nvm-install
 
+  # Install latest node LTS version
+  nvm install --lts
 fi
 
 exit 0

@@ -5,8 +5,6 @@
 # This installs some of the common dependencies needed (or at least desired)
 # using Oh My Zsh.
 
-echo "  Checking for Oh My Zsh"
-
 # Check for Oh My Zsh
 if ! [ -d "${HOME}/.oh-my-zsh" ]
 then
