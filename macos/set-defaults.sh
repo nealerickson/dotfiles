@@ -459,7 +459,6 @@ for app in "Activity Monitor" \
 	"Safari" \
 	"SystemUIServer" \
 	"Terminal" \
-	"iTerm2" \
 	"iCal"; do
 	killall "${app}" &> /dev/null
 done
