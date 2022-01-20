@@ -1,27 +1,9 @@
 git/gitconfig.local.symlink
 
-atom.symlink/.apm
-atom.symlink/.node-gyp
-atom.symlink/.storage
-atom.symlink/blob-store
-atom.symlink/compile-cache/
-atom.symlink/packages
-atom.symlink/storage
-atom.symlink/themes
-
-emacs.d.symlink/*
-!emacs.d.symlink/Cask
-!emacs.d.symlink/configuration.org
-!emacs.d.symlink/init.el
-!emacs.d.symlink/resources
-!emacs.d.symlink/snippets
-!emacs.d.symlink/install.sh
-
 homestead.symlink/*
 !homestead.symlink/install.sh
 !homestead.symlink/after.sh
 !homestead.symlink/aliases
 !homestead.symlink/Homestead.yaml.example
 
-
-bin/vpnctl
+Brewfile.lock.json
