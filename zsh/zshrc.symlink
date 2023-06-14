@@ -52,3 +52,7 @@ bindkey "^[[B" down-line-or-beginning-search # Down
 # load oh-my-zsh
 ohmyzsh_config=($DOTFILES/ohmyzsh/zshrc.sh)
 [ -f $ohmyzsh_config ] && source $ohmyzsh_config
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
