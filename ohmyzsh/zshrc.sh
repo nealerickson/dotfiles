@@ -42,3 +42,5 @@ source $ZSH/oh-my-zsh.sh
 # export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home
 
 # export PATH=$PATH:$HOME/flutter/bin
+
+export PATH="$PATH:/Users/neal/.dotnet/tools"

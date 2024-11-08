@@ -9,7 +9,7 @@ if ! [ -d "${HOME}/.nvm" ]
 then
   echo "  Installing nvm for you."
 
-  nvm-install
+  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
   # Install latest node LTS version
   nvm install --lts
