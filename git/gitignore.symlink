@@ -4,3 +4,8 @@
 Thumbs.db
 .history
 
+
+.env*
+.flaskenv*
+!.env.project
+!.env.vault
