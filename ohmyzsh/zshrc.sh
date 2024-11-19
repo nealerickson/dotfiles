@@ -16,7 +16,7 @@ COMPLETION_WAITING_DOTS='true'
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(git github ruby rbenv fasd history composer)
+plugins=(git github ruby rbenv history composer)
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
