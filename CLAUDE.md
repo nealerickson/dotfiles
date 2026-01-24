@@ -44,6 +44,8 @@ The repository uses naming conventions for automatic behavior:
 **Key directories:**
 - `bin/` - Added to PATH; contains git helpers and utilities
 - `functions/` - Autoloaded shell functions
+
+**Key files:**
 - `Brewfile` - Homebrew package manifest
 
 **Private configuration:**
