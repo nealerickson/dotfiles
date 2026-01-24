@@ -1,7 +1,5 @@
 cask_args appdir: '/Applications'
 
-tap 'homebrew/bundle'
-
 brew 'ack'
 brew 'ctop'
 brew 'coreutils'
@@ -13,7 +11,7 @@ brew 'ffmpeg'
 brew 'imagemagick'
 brew 'jp2a'
 brew 'jsonpp'
-brew 'karabiner-elements'
+cask 'karabiner-elements'
 brew 'libgit2'
 brew 'readline'
 brew 'pyenv'
