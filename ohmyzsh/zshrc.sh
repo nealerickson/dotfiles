@@ -20,7 +20,7 @@ plugins=(git github ruby rbenv history composer)
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
-source $ZSH/oh-my-zsh.sh
+[ -f "$ZSH/oh-my-zsh.sh" ] && source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
