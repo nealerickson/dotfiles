@@ -7,3 +7,5 @@ homestead.symlink/*
 !homestead.symlink/Homestead.yaml.example
 
 Brewfile.lock.json
+.idea/
+.claude/settings.local.json
