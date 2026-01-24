@@ -11,8 +11,13 @@ then
 
   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
-  # Install latest node LTS version
+  # Source nvm so we can use it immediately
+  export NVM_DIR="$HOME/.nvm"
+  [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+  # Install latest node LTS version and set as default
   nvm install --lts
+  nvm alias default node
 fi
 
 exit 0
