@@ -38,9 +38,6 @@
 	helper = osxkeychain
 #[commit]
 #	template = ~/.gitmessage
-[user]
-	name = Neal Erickson
-	email = neal@erickson.io
 [diff]
 	tool = Kaleidoscope
 [difftool "Kaleidoscope"]
@@ -52,3 +49,8 @@
 	trustExitCode = true
 [init]
 	defaultBranch = main
+[safe]
+	directory = /opt/homebrew
+	directory = /opt/homebrew/Library/Taps/antoniorodr/homebrew-memo
+	directory = /opt/homebrew/Library/Taps/steipete/homebrew-tap
+	directory = /opt/homebrew/Library/Taps/yakitrak/homebrew-yakitrak
