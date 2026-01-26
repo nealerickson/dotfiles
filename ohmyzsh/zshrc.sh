@@ -20,6 +20,7 @@ plugins=(git github ruby rbenv history composer)
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+ZSH_DISABLE_COMPFIX=true
 [ -f "$ZSH/oh-my-zsh.sh" ] && source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -43,4 +44,4 @@ export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # export PATH=$PATH:$HOME/flutter/bin
 
-export PATH="$PATH:/Users/neal/.dotnet/tools"
+export PATH="$PATH:$HOME/.dotnet/tools"
