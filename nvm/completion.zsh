@@ -1,5 +1,5 @@
-# Only setup load-nvmrc if nvm is loaded
-if type nvm &>/dev/null; then
+# Only setup load-nvmrc if nvm is loaded and not skipped
+if [ "$DOTFILES_SKIP_NVM" != "1" ] && type nvm &>/dev/null; then
   autoload -U add-zsh-hook
   load-nvmrc() {
     local node_version="$(nvm version)"
